@@ -1,8 +1,8 @@
 const ulDOM = document.querySelector('ul');
 
-const data = fetch('https://raw.githubusercontent.com/front-end-by-rimantas/44-grupe-portfolio/master/data/servicesData.js')
+const data = fetch('')
     .then((response) => {
-    return response.text();
+    return response.js();
 })
 .then((data) => {
     for(const user of data) {
